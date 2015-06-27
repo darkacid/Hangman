@@ -24,3 +24,4 @@ install:
 
 script: 
   - $CXX --version
+  - $CXX hangman-source.cpp -o hangman
